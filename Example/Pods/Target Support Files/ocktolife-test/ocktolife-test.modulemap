@@ -1,0 +1,6 @@
+framework module ocktolife_test {
+  umbrella header "ocktolife-test-umbrella.h"
+
+  export *
+  module * { export * }
+}

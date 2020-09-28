@@ -1,0 +1,22 @@
+{
+  "name": "ocktolife-test",
+  "version": "0.1.0",
+  "summary": "A short description of ocktolife-test.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/karpomkarpipoom/ocktolife-test",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "karpomkarpipoom": "karpomkarpipoom@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/karpomkarpipoom/ocktolife-test.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ocktolife-test/Classes/**/*"
+}

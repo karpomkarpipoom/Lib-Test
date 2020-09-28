@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		46FAF862720831322CC1A931 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5549BE3EA739A9892C162579 /* ocktolife-test.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "ocktolife-test.podspec"; path = "../ocktolife-test.podspec"; sourceTree = "<group>"; };
+		46FAF862720831322CC1A931 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5549BE3EA739A9892C162579 /* ocktolife-test.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "ocktolife-test.podspec"; path = "../ocktolife-test.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* ocktolife-test_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ocktolife-test_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7965204608D0EAC3EB54FF82 /* Pods_ocktolife_test_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ocktolife_test_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		80E166D03F1D15613568353C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		80E166D03F1D15613568353C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B01850C240E9ADB2795CD70F /* Pods-ocktolife-test_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ocktolife-test_Tests.release.xcconfig"; path = "Target Support Files/Pods-ocktolife-test_Tests/Pods-ocktolife-test_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B052AB6BD0109C2098DBB74C /* Pods-ocktolife-test_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ocktolife-test_Example.release.xcconfig"; path = "Target Support Files/Pods-ocktolife-test_Example/Pods-ocktolife-test_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B955CCBCFA6468536597A340 /* Pods_ocktolife_test_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ocktolife_test_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,7 +156,6 @@
 				CC517FD5D3C568A5C3D94275 /* Pods-ocktolife-test_Tests.debug.xcconfig */,
 				B01850C240E9ADB2795CD70F /* Pods-ocktolife-test_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
